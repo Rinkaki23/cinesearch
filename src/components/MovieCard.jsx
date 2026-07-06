@@ -49,7 +49,7 @@ const MovieCard = ({ movie, onToggleFavorite, isFavorite, onViewDetails }) => {
               ⭐ {movie.vote_average ? movie.vote_average.toFixed(1) : 'N/A'}
             </p>
           </div>
-          <p className="text-gray mb-4 line-clamp-3">
+          <p className="text-gray-400 mb-4 line-clamp-3">
             {movie.overview ? movie.overview : 'N/A'}
           </p>
           <div className="flex gap-2">
