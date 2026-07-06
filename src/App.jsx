@@ -95,9 +95,9 @@ const App = () => {
     <div className="container mx-auto p-4 flex flex-col items-center text-center">
       {/* Navigation */}
       <nav className="w-full flex justify-end mb-4 navbar bg-base-300 shadow-lg rounded-2xl sticky top-0 z-10 opacity-90">
-        <div className="self-center mr-auto text-4xl font-extrabold text-red-600">
+        <Link to='/' className="self-center mr-auto text-4xl font-extrabold text-red-600">
           CS
-        </div>
+        </Link>
         <div className="tabs tabs-box tabs-md ">
           <Link
             to={`/?q=${savedQuery}&page=${savedPage}`}
